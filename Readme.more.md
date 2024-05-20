@@ -190,9 +190,10 @@ function player1Choice(choice) {
 }  
 playerOneChoice(“rock”) -> “Player 1 chose rock” 
 playerOneChoice(“paper”) -> “Player 1 chose paper”
-```
+
 playerOneChoice(“scissors”) -> “Player 1 chose scissors” 
 playerOneChoice(“gun”) -> “Player 1 chose poorly”
+```
 5.Write a function called convertScoreToGrade that takes a score as a parameter and returns a string representing the letter grade corresponding to the given score as follows: (100 - 90) --> 'A' (89 - 80) --> 'B' (79 - 70) --> 'C' (69 - 60) --> 'D' (59 - 0) --> 'F' If the given score is greater than 100 or less than 0, it should return 'Invalid Score'
 
  function convertScoreToGrade(score) {
