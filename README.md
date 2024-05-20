@@ -1,4 +1,4 @@
-# Boolean, Operators and Conditionals Exercises
+# Boolean, Booleans and Conditionals Exercises
 ## Basic Requirements
 1.Write a function called returnTrue that takes no parameters and returns true when invoked.
 ```js
