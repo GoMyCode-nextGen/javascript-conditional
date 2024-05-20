@@ -195,23 +195,26 @@ playerOneChoice(“scissors”) -> “Player 1 chose scissors”
 playerOneChoice(“gun”) -> “Player 1 chose poorly”
 ```
 5.Write a function called convertScoreToGrade that takes a score as a parameter and returns a string representing the letter grade corresponding to the given score as follows: (100 - 90) --> 'A' (89 - 80) --> 'B' (79 - 70) --> 'C' (69 - 60) --> 'D' (59 - 0) --> 'F' If the given score is greater than 100 or less than 0, it should return 'Invalid Score'
-
+```js
  function convertScoreToGrade(score) {
    //Write your code here 
 }  
 convertScoreToGrade(91) -> “A” 
 convertScoreToGrade(80) -> “B” 
 convertScoreToGrade(110) -> “Invalid Score”
+```
 6.Write a function called convertScoreToGradeWithPlusAndMinus that takes a score as a parameter and returns a string representing the letter grade corresponding to the given score as follows: (100 - 95) --> 'A+' (94 - 90) --> 'A-' (89 - 87) --> 'B+' (86 - 80) --> 'B-' (79 - 77) --> 'C+' (76 - 70) --> 'C-' (69 - 67) --> 'D+' (66 - 60) --> 'D-' (59 - 0) --> 'F' If the given score is greater than 100 or less than 0, it should return 'Invalid Score'.
 
+```js
 function convertScoreToGradeWithPlusAndMinus(score) {
    //Write your code here 
 }  
 convertScoreToGradeWithPlusAndMinus(91) -> “A-” 
 convertScoreToGradeWithPlusAndMinus(80) -> “B-” 
 convertScoreToGradeWithPlusAndMinus(-10) -> “Invalid Score”
+```
 7.Write a function called isItTruthy that takes any value as a parameter and returns the string 'Input is truthy' if the parameter is truthy, otherwise returns 'Input is falsy'.
-
+```js
   function isItTruthy(value) {
    //Write your code here 
 } 
@@ -220,17 +223,20 @@ isItTruthy() -> “Input is Falsy”
 isItTruthy(0) -> “Input is Falsy” 
 isItTruthy(“”) -> “Input is Falsy” 
 isItTruthy(false) -> “Input is Falsy”
+```
 8.Write a function called checkArea that takes area as a parameter and returns true if the input is larger than 48 AND less than 100, otherwise returns false.
-
+```js
 function checkArea(area) {
    //Write your code here 
 }  
 checkArea(50) -> true 
 checkArea(100) -> false
+```
 9.Write a function called multiply that takes two numbers as parameters and returns true if their multiplication is greater than 50 And less to 150, otherwise returns false.
-
+```js
 function checkMultiply(num1, num2) {
    //Write your code here 
 }  
 checkMultiply(10, 6) -> true 
 checkMultiply(7, 7) -> false
+```
